@@ -170,9 +170,15 @@ img {
     margin-left: 2rem;
   }
 
-  main h1{
-    text-align: center;
-    padding: 20vh;
+  .intro{
+    display: grid;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .intro p{
+    max-width: 70%;
+    padding-top: 1.5rem ;
   }
 
   .projects{
@@ -183,28 +189,45 @@ img {
     gap: 6vh;
   }
 
-  
+  .projects h1{
+    grid-column: 1/-1;
+  }
 
   .project{
-    /* box-shadow: 7px 6px 16px #1ED760; */
     background-color: #181818;
-    padding: 32px 32px 54px 32px;
     border-radius: 25px;
     transition: all .3s ease;
+    padding-bottom: 44px;
+    position: relative;
   }
 
   .project:hover{
     background-color: #262626;
   }
 
+  .chips{
+    position: absolute;
+    color: white;
+    top: 3%;
+    right: 3%;
+    background-color: black;
+    padding: 12px 16px 12px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+  }
+
+  .project img{
+    border-radius: 25px 25px 0 0;
+  }
+
   .project h2{
-    padding: 20px 20px 20px 0;
+    padding: 16px;
     text-align: left;
     font-size: 32px;
   }
 
   .project p{
-    padding-bottom: 20px;
+    padding: 0 0 16px 16px;
     margin-bottom: 20px;
   }
 
@@ -215,6 +238,7 @@ img {
     padding: 1rem 2rem;
     border-radius: 25px;
     color: black;
+    margin-left: 16px;
   }
 
   .project a:hover{
@@ -230,6 +254,13 @@ img {
     border: 3px solid #1ED760;
   }
 
+  .intro{
+    margin-top: 3rem;
+    padding: 4.5vh;
+    background-color: #181818;
+    border-radius: 25px;
+  }
+
 }
 
 /* Slider */
@@ -237,6 +268,7 @@ img {
 .slider {
   width: 100%;
   overflow: hidden;
+  margin-bottom: 20vh;
 }
 
 /*Area of images*/
