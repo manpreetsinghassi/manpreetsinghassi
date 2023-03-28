@@ -27,7 +27,14 @@ img {
   align-items: center;
   color: #fff;
   padding: 24px;
-  box-shadow: 0px 4px 16px rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 4px 16px rgba(255, 255, 255, 0.097);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: black;
+
 }
 
 .hamburger {
@@ -183,10 +190,10 @@ img {
 
   .projects{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     max-width: 90%;
     margin: auto;
-    gap: 6vh;
+    gap: 5vh;
   }
 
   .projects h1{
@@ -201,9 +208,9 @@ img {
     position: relative;
   }
 
-  .project:hover{
+  /* .project:hover{
     background-color: #262626;
-  }
+  } */
 
   .chips{
     position: absolute;
@@ -221,13 +228,13 @@ img {
   }
 
   .project h2{
-    padding: 16px;
+    padding: 20px;
     text-align: left;
     font-size: 32px;
   }
 
   .project p{
-    padding: 0 0 16px 16px;
+    padding: 0 0 20px 20px;
     margin-bottom: 20px;
   }
 
@@ -238,7 +245,7 @@ img {
     padding: 1rem 2rem;
     border-radius: 25px;
     color: black;
-    margin-left: 16px;
+    margin-left: 20px;
   }
 
   .project a:hover{
@@ -276,6 +283,7 @@ img {
   width: 100%;
   display: flex;
   animation: slide 25s infinite;
+  margin-top: 80px;
 }
 
 img {
