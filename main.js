@@ -18,7 +18,7 @@ function mobileMenu() {
   }
 
 
-  const navLinks = document.querySelectorAll('nav a');
+  const navLinks = document.querySelectorAll('nav .test');
 
 navLinks.forEach(link => {
   link.addEventListener('click', event => {
