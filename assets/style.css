@@ -141,8 +141,53 @@ a{
 }
 
 .description{
-  padding: 20% 10%;
+  padding: 30% 10% 15% 10%;
   margin-top: 50px;
+}
+
+.description h1{
+  padding-bottom: 2rem;
+}
+
+.description a{
+  color: black;
+  padding: 16px 32px;
+  background-color: #1ED760;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.project{
+  position: relative;
+}
+
+.project img{
+  border-radius: 25px;
+}
+
+.chips{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background-color: black;
+  color: white;
+  padding: 10px 12px 10px 12px;
+  border-radius: 25px;
+  font-size: 10px;
+}
+
+.projects{
+  background-color: #181818;
+  padding: 8%;
+  display: grid;
+  gap: 3vh;
+  border-radius: 25px;
+  max-width: 95%;
+  margin: auto;
+}
+
+.projects h1{
+  font-size: 26px;
 }
 
 /*  */
