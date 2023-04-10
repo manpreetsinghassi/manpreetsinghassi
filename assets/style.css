@@ -141,8 +141,9 @@ a{
 }
 
 .description{
-  padding: 30% 10% 15% 10%;
-  margin-top: 50px;
+  padding: 60% 10%;
+  margin-top: 25%;
+  height: 90vh;
 }
 
 .description h1{
