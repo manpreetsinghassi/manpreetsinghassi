@@ -199,7 +199,8 @@ a{
   padding: 8%;
   background-color: #181818;
   border-radius: 25px;
-  margin-top: 3rem 0 3rem 0;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .intro h1{
@@ -207,7 +208,6 @@ a{
 }
 
 .intro img{
-  width: 240px;
   margin: auto;
 }
 
