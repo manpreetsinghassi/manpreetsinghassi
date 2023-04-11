@@ -183,12 +183,32 @@ a{
   display: grid;
   gap: 3vh;
   border-radius: 25px;
-  max-width: 95%;
+  max-width: 90%;
   margin: auto;
 }
 
 .projects h1{
   font-size: 26px;
+}
+
+.intro{
+  display: grid;
+  gap: 1.5rem;
+  max-width: 90%;
+  margin: auto;
+  padding: 8%;
+  background-color: #181818;
+  border-radius: 25px;
+  margin-top: 3rem 0 3rem 0;
+}
+
+.intro h1{
+  font-size: 26px;
+}
+
+.intro img{
+  width: 240px;
+  margin: auto;
 }
 
 /*  */
