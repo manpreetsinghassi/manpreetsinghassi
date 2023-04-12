@@ -583,23 +583,27 @@ img {
   margin-bottom: 1.5rem;
 }
 
-.current-new-home{
-  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "full-row full-row"
-        "second-row third-row";
-        gap: 1rem;
-}
-
 .current-new-home h3{
-  grid-area: full-row;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .current-new-home h4{
   padding-bottom: .5rem;
+}
+
+.current-new-home p{
+  padding: .5rem 0;
+}
+
+.current-new-home p span{
+  padding-right: 1rem;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.ui-kit img:hover, .current-new-home img:hover{
+  cursor: pointer;
 }
 /* .banner{
   padding: 45% 10%;
