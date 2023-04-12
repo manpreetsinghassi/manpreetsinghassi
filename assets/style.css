@@ -548,8 +548,16 @@ img {
   padding: 5%;
 }
 
+.des-study-main img{
+  border: 1px solid;
+}
+
 .banner{
   margin-bottom: 1.5rem;
+}
+
+.banner img{
+  border: unset;
 }
 
 .oview{
@@ -572,8 +580,27 @@ img {
 
 .ui-kit{
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
+.current-new-home{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "full-row full-row"
+        "second-row third-row";
+        gap: 1rem;
+}
+
+.current-new-home h3{
+  grid-area: full-row;
+  padding-top: 1rem;
+}
+
+.current-new-home h4{
+  padding-bottom: .5rem;
+}
 /* .banner{
   padding: 45% 10%;
 } */
@@ -585,7 +612,7 @@ img {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   left: 0;
   top: 0;
   width: 100%;
@@ -602,18 +629,18 @@ img {
 }
 
 .close {
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 35px;
   font-size: 40px;
   font-weight: bold;
-  color: #f1f1f1;
+  color: #1ED760;
   cursor: pointer;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }

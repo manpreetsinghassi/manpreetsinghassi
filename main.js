@@ -31,17 +31,82 @@ navLinks.forEach(link => {
 
 // Modal
 
-function openModal() {
-  document.getElementById("myModal").style.display = "flex";
+function openModal1() {
+  document.getElementById("myModal1").style.display = "flex";
 }
 
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
+function closeModal1() {
+  document.getElementById("myModal1").style.display = "none";
 }
 
 // Close the modal when the user clicks anywhere outside of the modal
 window.onclick = function(event) {
-  var modal = document.getElementById("myModal");
+  var modal = document.getElementById("myModal1");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+function openModal2() {
+  document.getElementById("myModal2").style.display = "flex";
+}
+
+function closeModal2() {
+  document.getElementById("myModal2").style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal2");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+function openModal3() {
+  document.getElementById("myModal3").style.display = "flex";
+}
+
+function closeModal3() {
+  document.getElementById("myModal3").style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal3");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+function openModal4() {
+  document.getElementById("myModal4").style.display = "flex";
+}
+
+function closeModal4() {
+  document.getElementById("myModal4").style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal4");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+function openModal5() {
+  document.getElementById("myModal5").style.display = "flex";
+}
+
+function closeModal5() {
+  document.getElementById("myModal5").style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal5");
   if (event.target == modal) {
     modal.style.display = "none";
   }
