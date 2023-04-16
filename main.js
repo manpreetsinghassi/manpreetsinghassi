@@ -112,3 +112,68 @@ window.onclick = function(event) {
   }
 }
 
+function openModal6() {
+  document.getElementById("myModal6").style.display = "flex";
+}
+
+function closeModal6() {
+  document.getElementById("myModal6").style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal6");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+function openModal7() {
+  document.getElementById("myModal7").style.display = "flex";
+}
+
+function closeModal7() {
+  document.getElementById("myModal7").style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal7");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+function openModal8() {
+  document.getElementById("myModal8").style.display = "flex";
+}
+
+function closeModal8() {
+  document.getElementById("myModal8").style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal8");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+function openModal9() {
+  document.getElementById("myModal9").style.display = "flex";
+}
+
+function closeModal9() {
+  document.getElementById("myModal9").style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal9");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
