@@ -458,7 +458,7 @@ footer p{
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 90%;
     margin: auto;
-    gap: 5vh;
+    gap: 2vh;
     padding: 3%;
   }
 
@@ -721,6 +721,21 @@ footer p{
   }
 
 }
+
+@media screen and (min-width: 1100px){
+
+  .projects{
+    gap: 3vh;
+  }
+}
+
+@media screen and (min-width: 1300px){
+
+  .projects{
+    gap: 4vh;
+  }
+}
+
 
 /* Slider */
 
