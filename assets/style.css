@@ -678,6 +678,11 @@ footer p{
     grid-template-areas: "header header" "main main" "main1 main1" "main2 main2" "main3 main3" "main4 main4" "main5 main5";
   }
 
+  .buzzit .oview{
+    height: 60%;
+    align-self: center;
+  }
+
   .current-new1{
     grid-area: main2;
   }
