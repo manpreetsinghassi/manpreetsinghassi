@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>SoundCloud</title>
+</head>
+
+<body class="des-study">
+  <header>
+    <div class="navigation">
+      <div class="brand-logo">
+        <a href="#" class="logo"><img src="assets/Images & Icons/logo.svg" alt="brand-logo"></a>
+        <a href="index.html" class="hover"><img src="assets/Images & Icons/logo-hover.svg" alt="brand-logo"></a>
+      </div>
+
+      <a href="#" class="hamburger">
+        <img class="open" src="assets/Images & Icons/Menu.svg" alt="Hamburger Icon">
+        <img class="close" src="assets/Images & Icons/Cross.svg" alt="Close Icon">
+      </a>
+      <nav id="menu" class="menu">
+        <ul>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="tel:+16043649955">Call</a></li>
+          <li><a href="mailto: manpreetsinghassi@gmail.com">Email</a></li>
+        </ul>
+      </nav>
+      <nav class="desktop-menu">
+        <ul>
+          <li class="icon"><a href="tel:+16043649955"><img src="assets/Images & Icons/Phone.svg" alt="phone"></a></li>
+          <li class="icon"><a href="mailto: manpreetsinghassi@gmail.com"><img src="assets/Images & Icons/Envelope.svg"
+                alt=""></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="des-study-main">
+    <div class="banner">
+      <h1>Soundcloud </h1>
+      <img class="des-img" src="assets/Images & Icons/Sound cloud/soundcloud-hero.svg" alt="sound-cloud">
+    </div>
+
+    <div class="overview">
+      <h2>Overview</h2>
+      <div class="overv">
+        <p>
+          SoundCloud is an online audio platform that allows users to upload, promote, and share their music, podcasts,
+          and other audio recordings with a global audience. The platform features a vast collection of tracks, ranging
+          from original compositions by independent artists to remixes and cover versions of popular songs. This case
+          study focused on the app's UI and some improvement to the UX.
+        </p>
+      </div>
+      <div class="oview">
+        <h3>Role</h3>
+        <p>
+          UI/UX designer
+        </p>
+        <h3>Tools Used</h3>
+        <p>
+          Figma
+        </p>
+      </div>
+    </div>
+
+    <div class="problem">
+      <h2>Problem Analysis</h2>
+      <p>The existing SoundCloud UI suffered from issues with consistency, clutter, and user experience. The interface
+        did not make optimal use of available screen space, resulting in a suboptimal user experience."</p>
+    </div>
+
+    <div class="solution">
+      <h2>My Solution</h2>
+      <p>To address these problems, the UI was redesigned to improve consistency, simplify the interface, and make
+        better use of space. Specifically, background colors were added to distinguish content types, and certain
+        features were made collapsible.</p>
+    </div>
+
+    <div class="ui-kit">
+      <h2>UI Kit</h2>
+      <img src="assets/Images & Icons/Sound cloud/Soundcloud_ui-kit.svg" alt="Image" onclick="openModal1()">
+      <div id="myModal1" class="modal">
+        <span class="close" onclick="closeModal1()">&times;</span>
+        <img src="assets/Images & Icons/Sound cloud/Soundcloud_ui-kit.svg" alt="Image">
+      </div>
+    </div>
+
+    <h2 class="current-new">Current vs New design</h2>
+
+    <div class="current-new-home">
+      <h3>Desktop-Homepage</h3>
+      <div class="before">
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-home-before-after.svg" alt="Image" onclick="openModal2()">
+      <div id="myModal2" class="modal">
+        <span class="close" onclick="closeModal2()">&times;</span>
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-home-before-after.svg" alt="Image">
+      </div>
+      </div>
+      <p><span>1</span> The navbar has been improved to enhance readability and user experience. The height has been increased, and the Go+/Next Pro buttons have been relocated to the main area of the webpage. The Upload button has been converted to an upload icon and given more padding between other buttons. The active tab will be more distinguishable with increased font weight, primary color, and a black background to indicate which tab is currently active.</p>
+      <p><span>2</span>To make it easier for users to navigate between cards, a left arrow has been added, disabled until the right arrow is clicked. Once the user has reached the end of the cards, the right arrow will become disabled.</p>
+      <p><span>3</span>All cards have been given a background to make it easier for users to differentiate between content. Previously, thin lines were used to separate the content, making it difficult to distinguish.</p>
+      <p><span>4</span>The Go+ and Next Pro buttons have been converted into big clickable cards. Users can now see a short description of what to expect before moving to those features.</p>
+      <p><span>5</span>To make the homepage less scrollable, all lists have been converted into clickable cards. When users click on a card, a list dropdown will open where they can see the songs in list form. This makes it easier for users to quickly access the content they want.</p>
+    </div>
+
+    <div class="current-new-home">
+      <h3>Mobile-Homepage</h3>
+      <div class="before">
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-home-before-after-mob.svg" alt="Image" onclick="openModal3()">
+      <div id="myModal3" class="modal">
+        <span class="close" onclick="closeModal3()">&times;</span>
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-home-before-after-mob.svg" alt="Image">
+      </div>
+      </div>
+      <p>In the mobile view of the homepage, I have focused on improving the visual design by incorporating the primary color and a grey background color for all cards. The header and footer have been updated to black, creating a bolder appearance compared to the previous white color used in the old mobile website. These changes help to enhance the overall aesthetics and improve the user experience for mobile users.</p>
+    </div>
+
+    <div class="current-new-home">
+      <h3>Desktop-Feed</h3>
+      <div class="before">
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-feed-before-after.svg" alt="Image" onclick="openModal4()">
+      <div id="myModal4" class="modal">
+        <span class="close" onclick="closeModal4()">&times;</span>
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-feed-before-after.svg" alt="Image">
+      </div>
+      </div>
+      <p>To improve the user experience, I have made a single but significant change to this page - adding a distinct background color to each section. By doing so, it is easier for the user to differentiate between different sections and quickly identify the content they are looking for. This subtle but effective change helps to make the page more user-friendly and improves the overall browsing experience.</p>
+    </div>
+
+    <div class="current-new-home">
+      <h3>Mobile-Feed</h3>
+      <div class="before">
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-feed-before-after-mob.svg" alt="Image" onclick="openModal5()">
+      <div id="myModal5" class="modal">
+        <span class="close" onclick="closeModal5()">&times;</span>
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-feed-before-after-mob.svg" alt="Image">
+      </div>
+      </div>
+      <p>In the mobile view of the feed page, there was a long list of artists, which could make the page difficult to navigate. To address this, I added a "View All" secondary button that allows users to expand the list of artists, making the website less scrollable overall. This design change helps to streamline the user experience and makes it easier for users to find the content they are looking for.</p>
+    </div>
+
+    <div class="current-new-home">
+      <h3>Desktop-Library</h3>
+      <div class="before">
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-library-before-after.svg" alt="Image" onclick="openModal6()">
+      <div id="myModal6" class="modal">
+        <span class="close" onclick="closeModal6()">&times;</span>
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-library-before-after.svg" alt="Image">
+      </div>
+      </div>
+      <p><span>1</span>On the library page, I have added a sub-navigation bar that provides clear indication of the currently active section. By doing so, users can easily navigate between different sections of the library page without confusion. This design change helps to improve the overall user experience and make the library page more intuitive to use.</p>
+      <p><span>2</span>To enhance the user experience and streamline navigation, I have added a "View All" button in relevant sections across the website. This allows users to quickly access the desired outcome on the library page with a single click. Additionally, to create visual consistency across the website, I have added a light grey background color to all cards, making it easier for users to differentiate between different sections. These design changes help to improve usability and make the website more user-friendly.</p>
+    </div>
+
+    <div class="current-new-home">
+      <h3>Mobile-Library</h3>
+      <div class="before">
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-library-before-after-mob.svg" alt="Image" onclick="openModal7()">
+      <div id="myModal7" class="modal">
+        <span class="close" onclick="closeModal7()">&times;</span>
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-library-before-after-mob.svg" alt="Image">
+      </div>
+      </div>
+      <p><span>1</span>I have used a light grey round box to represent the user's profile picture. This design choice helps to create a clear visual distinction between the profile picture and other elements on the page, making it easier for users to identify the user's account. Additionally, I have placed greater emphasis on color throughout the page, which enhances the overall aesthetic appeal and improves the user experience.</p>
+      <p><span>2</span>This button's active state is designed to indicate to the user that it is currently selected and ready to open a list dropdown. By using a different color or style to highlight the active state, users can easily see which buttons are selected and which ones are not. This design change helps to improve the user experience by making it easier for users to navigate and interact with the website.</p>
+    </div>
+
+    <div class="current-new-home">
+      <h3>Desktop-Profile</h3>
+      <div class="before">
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-profile-before-after.svg" alt="Image" onclick="openModal8()">
+      <div id="myModal8" class="modal">
+        <span class="close" onclick="closeModal8()">&times;</span>
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-profile-before-after.svg" alt="Image">
+      </div>
+      </div>
+      <p><span>1</span>Previously, the user's name and ID covered a portion of the header image, which detracted from the overall visual appeal of the website. To address this issue, I moved the name and ID below the header image and positioned them to the right of the profile image. This design change creates a more cohesive and visually appealing layout while ensuring that the user's name and ID are still prominently displayed on the page.</p>
+      <p><span>2</span>Currently, the "All" tab is active, which displays a selection of cards from the other tabs. If a user clicks on one of the other tabs, the view will switch to display only the cards associated with that particular tab. This design change improves the user experience by allowing them to quickly and easily navigate to the content they are interested in.</p>
+    </div>
+
+    <div class="current-new-home">
+      <h3>Mobile-Profile</h3>
+      <div class="before">
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-profile-before-after-mob.svg" alt="Image" onclick="openModal9()">
+      <div id="myModal9" class="modal">
+        <span class="close" onclick="closeModal9()">&times;</span>
+        <img src="assets/Images & Icons/Sound cloud/Soundclou-profile-before-after-mob.svg" alt="Image">
+      </div>
+      </div>
+      <p>In the "Before" screenshot, there were no "Edit" or "Share" buttons available for the user's profile. In the updated design, these buttons have been added, along with additional data to give users a better idea of how the profile will look and function. These design changes enhance the functionality and usability of the profile page.</p>
+    </div>
+
+
+
+  </main>
+
+  <footer class="des-footer">
+    <p>Copyright 2022 - All right Reserved</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
