@@ -315,6 +315,12 @@ footer p{
   padding-top: 1rem;
 }
 
+/* Mae */
+
+.mae .current-new {
+  padding-top: 1.5rem;
+}
+
 
 /* modal */
 
@@ -692,6 +698,25 @@ footer p{
   }
 
   .buzzit-new-home1{
+    grid-area: main4;
+  }
+
+  /* Mae */
+
+  .mae{
+    grid-template-areas: "header header" "main main" "main1 main1" "main2 main2" "main3 main3" "main4 main4";
+  }
+
+  .mae .oview{
+    height: 70%;
+    align-self: center;
+  }
+
+  .mae .current-new{
+    grid-area: main3;
+  }
+
+  .mae-new{
     grid-area: main4;
   }
 
