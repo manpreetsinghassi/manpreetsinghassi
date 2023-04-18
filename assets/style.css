@@ -15,6 +15,11 @@ img {
   height: auto;
 }
 
+video{
+  max-width: 100%;
+  height: auto;
+}
+
 a{
   text-decoration: none;
 }
@@ -227,7 +232,7 @@ footer p{
   color: black;
 }
 
-.des-study-main{
+.des-study-main, .group-project-main{
   margin-top: 35%;
   padding: 5%;
 }
@@ -320,6 +325,73 @@ footer p{
 .mae .current-new {
   padding-top: 1.5rem;
 }
+
+/* Stylify */
+
+.group-project{
+  background-color: white;
+  color: black;
+}
+
+.group-project-main img{
+  border: 1px solid black;
+}
+
+.group-project-main .banner img{
+  border: unset;
+}
+
+.group-project-main .overview{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.group-project-main .overview a{
+  background: #1ED760;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    justify-self: center;
+    color: black;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+.group-project-main .oview{
+  gap: 10px;
+}
+
+.group-project-main .problem p{
+  padding: .6rem 0;
+}
+
+.group-project-main span{
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.group-project-main .solution div{
+  display: grid;
+  gap: 1rem;
+  border: 1px solid black;
+  padding: 1.5rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.group-project-main .solution div img{
+  justify-self: center;
+}
+
+.group-project-main .solution div h3{
+  text-align: center;
+}
+
+.persona img{
+  border: 1px solid black;
+}
+
 
 
 /* modal */

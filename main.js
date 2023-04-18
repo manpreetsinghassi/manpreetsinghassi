@@ -31,6 +31,22 @@ navLinks.forEach(link => {
 
 // Modal
 
+function openModal() {
+  document.getElementById("myModal").style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+// Close the modal when the user clicks anywhere outside of the modal
+window.onclick = function(event) {
+  var modal = document.getElementById("myModal");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
 function openModal1() {
   document.getElementById("myModal1").style.display = "flex";
 }
