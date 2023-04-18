@@ -251,7 +251,7 @@ footer p{
   border-radius: 0px;
 }
 
-.oview{
+.des-study-main .oview{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: .1rem;
@@ -284,7 +284,7 @@ footer p{
 }
 
 .current-new-home p{
-  padding: .5rem 0;
+  padding: 1rem 0;
 }
 
 .current-new-home p span{
@@ -335,10 +335,12 @@ footer p{
 
 .group-project-main img{
   border: 1px solid black;
+  box-shadow: 4px 4px 0px #161D23;
 }
 
 .group-project-main .banner img{
   border: unset;
+  box-shadow: unset;
 }
 
 .group-project-main .overview{
@@ -356,19 +358,20 @@ footer p{
     color: black;
     font-weight: 500;
     border-radius: 25px;
+    align-self: center;
 }
 
 .group-project-main .oview{
   gap: 10px;
+  box-shadow: 4px 4px 0px #161D23;
+}
+
+.group-project-main .problem h2{
+  padding-bottom: .6rem;
 }
 
 .group-project-main .problem p{
   padding: .6rem 0;
-}
-
-.group-project-main span{
-  font-weight: bolder;
-  font-size: 1.2rem;
 }
 
 .group-project-main .solution div{
@@ -378,10 +381,13 @@ footer p{
   padding: 1.5rem;
   border-radius: 20px;
   margin-bottom: 1rem;
+  box-shadow: 4px 4px 0px #161D23;
 }
 
 .group-project-main .solution div img{
   justify-self: center;
+  border: unset;
+  box-shadow: unset;
 }
 
 .group-project-main .solution div h3{
@@ -792,6 +798,127 @@ footer p{
     grid-area: main4;
   }
 
+  /* Stylify */
+
+  .group-project-main{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      grid-template-areas:
+          "header header"
+          "main main" "main1 main1" "main2 main2" "main3 main3" "main4 main4" "main5 main5"
+          "footer footer" "footer1 footer1" "footer2 footer2" "footer3 footer3" "footer4 footer4" "footer5 footer5"
+          "footer6 footer6" "footer7 footer7";
+          margin-top: 0;
+      width: 90%;
+      margin: auto;
+      gap: 2rem;
+      padding: 4% 5% 5% 5%;
+  }
+
+  .group-project-main .overview{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 16%;
+    grid-template-areas:
+        "one one three"
+        "two two three"
+        "four five three";
+  }
+
+  .group-project-main .overview h2{
+    grid-area: one;
+  }
+
+  .group-project-main .overview .overv{
+    grid-area: two;
+    align-self: center;
+  }
+
+  .group-project-main .overview a:nth-child(1){
+    grid-area: four;
+  }
+
+  .group-project-main .overview a:nth-child(2){
+    grid-area: five;
+  }
+
+  .group-project-main .overview .oview{
+    grid-area: three;
+    align-self: center;
+    border: 1px solid black;
+    padding: 4%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 30% 1fr;
+    border-radius: 20px;
+  }
+
+  .group-project-main .overview .oview h3, .group-project-main .overview .oview p{
+    align-self: center;
+  }
+
+  .group-project-main .role-team{
+    grid-area: main1;
+  }
+
+  .group-project-main .problem{
+    grid-area: main2;
+  }
+
+  .group-project-main .solution{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "sol sol sol"
+        "sol1 sol2 sol3";
+    gap: 4%;
+    grid-area: main3;
+  }
+
+  .group-project-main .solution h2{
+    grid-area: sol;
+  }
+
+  .group-project-main div:nth-child(6){
+    grid-area: main4;
+  }
+
+  .group-project-main div:nth-child(7){
+    grid-area: main5;
+  }
+
+  .group-project-main div:nth-child(8){
+    grid-area: footer;
+  }
+
+  .group-project-main div:nth-child(9){
+    grid-area: footer1;
+  }
+
+  .group-project-main div:nth-child(10){
+    grid-area: footer2;
+  }
+
+  .group-project-main div:nth-child(11){
+    grid-area: footer3;
+  }
+
+  .group-project-main div:nth-child(12){
+    grid-area: footer4;
+  }
+
+  .group-project-main div:nth-child(13){
+    grid-area: footer5;
+  }
+
+  .group-project-main div:nth-child(14){
+    grid-area: footer6;
+  }
+
+  .group-project-main div:nth-child(15){
+    grid-area: footer7;
+  }
+
 }
 
 @media screen and (min-width: 1100px){
@@ -799,12 +926,24 @@ footer p{
   .projects{
     gap: 3vh;
   }
+
+  /* Stylify */
+
+  .group-project-main{
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 1300px){
 
   .projects{
     gap: 4vh;
+  }
+
+  /* Stylify */
+
+  .group-project-main{
+    width: 75%;
   }
 }
 
