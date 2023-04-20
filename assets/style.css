@@ -362,7 +362,14 @@ footer p{
 }
 
 .group-project-main .oview{
-  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .1rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3%;
+  /* gap: 10px; */
   box-shadow: 4px 4px 0px #161D23;
 }
 
@@ -805,10 +812,11 @@ footer p{
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
       grid-template-areas:
-          "header header"
-          "main main" "main1 main1" "main2 main2" "main3 main3" "main4 main4" "main5 main5"
-          "footer footer" "footer1 footer1" "footer2 footer2" "footer3 footer3" "footer4 footer4" "footer5 footer5"
-          "footer6 footer6" "footer7 footer7";
+        "header header"
+        "main main"
+        "main1 main1"
+        "main2 main2"
+        "main3 main3";
           margin-top: 0;
       width: 90%;
       margin: auto;
