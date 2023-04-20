@@ -812,11 +812,10 @@ footer p{
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
       grid-template-areas:
-        "header header"
-        "main main"
-        "main1 main1"
-        "main2 main2"
-        "main3 main3";
+      "header header"
+      "main main" "main1 main1" "main2 main2" "main3 main3" "main4 main4" "main5 main5"
+      "footer footer" "footer1 footer1" "footer2 footer2" "footer3 footer3" "footer4 footer4" "footer5 footer5"
+      "footer6 footer6" "footer7 footer7";
           margin-top: 0;
       width: 90%;
       margin: auto;
@@ -925,6 +924,13 @@ footer p{
 
   .group-project-main div:nth-child(15){
     grid-area: footer7;
+  }
+
+  /* Nexum */
+
+  .nexum-main{
+    grid-template-areas: "header header"
+    "main main" "main1 main1" "main2 main2";
   }
 
 }
